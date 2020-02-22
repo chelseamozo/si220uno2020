@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
-
-namespace webappUno.Models
+﻿namespace webappUno.Models
 {
-    public class Person
+using System.ComponentModel.DataAnnotations;
+
+public class Person
     {
         [Key]
         public int PersonID { get; set; }
